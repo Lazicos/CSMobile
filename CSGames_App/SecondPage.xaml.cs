@@ -6,6 +6,8 @@ public partial class SecondPage : ContentPage
 	{
 		InitializeComponent();
 	}
+	 private void ChangeTheme() { 
 
+	}
 }
 
