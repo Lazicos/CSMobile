@@ -13,11 +13,22 @@
                   HeightRequest="40" >
                 
                 <!--header content-->
+
                 <HorizontalStackLayout Spacing="80" 
                         HorizontalOptions="FillAndExpand"
                         Padding="10">
-                    <Label FontSize="18" Text="0°C" VerticalOptions="End" />
-                    <Label FontSize="18" Text="Batterie : 80%" VerticalOptions="End"/>
+
+                    <!-- Temperature-->
+
+                    <Label FontSize="18" Text="0°C" 
+                           VerticalOptions="End" 
+                           FontFamily="IHATCS__"/>
+                    
+                    <!-- Niveau de batterie-->
+                    
+                    <Label FontSize="18" Text="Batterie : 80%" 
+                           VerticalOptions="End"
+                           FontFamily="IHATCS__"/>
                 </HorizontalStackLayout>
             </Grid>
 
@@ -33,9 +44,11 @@
                                Text="SOS :" VerticalOptions="End" 
                                TextColor="#1E515E"
                                FontFamily="DalekPinpointBold"/>
+                        
                         <Label FontSize="22" Text="Aucun SOS" 
                                VerticalOptions="End" 
-                               TextColor="#1E515E"/>
+                               TextColor="#1E515E"
+                               FontFamily="IHATCS__"/>
                     </HorizontalStackLayout>
 
                     <!--Layout 2 : Nouvelles-->
@@ -47,9 +60,11 @@
                                VerticalOptions="End" 
                                TextColor="#1E515E"
                                FontFamily="DalekPinpointBold"/>
+                        
                         <Label FontSize="22" Text="Pas de nouvelles" 
                                VerticalOptions="End"
-                               TextColor="#1E515E"/>
+                               TextColor="#1E515E"
+                               FontFamily="IHATCS__"/>
                     </HorizontalStackLayout>
 
 
@@ -62,9 +77,11 @@
                                VerticalOptions="End" 
                                TextColor="#1E515E"
                                FontFamily="DalekPinpointBold"/>
+                        
                         <Label FontSize="22" Text="Pas de transports" 
                                VerticalOptions="End" 
-                               TextColor="#1E515E"/>
+                               TextColor="#1E515E"
+                               FontFamily="IHATCS__"/>
                     </HorizontalStackLayout>
 
                 </VerticalStackLayout>
@@ -73,7 +90,7 @@
 
             </Grid>
 
-            <!--Row 3 : Quality-->
+            <!--Row 3 : Quality -->
             <Grid Grid.Row="2" BackgroundColor="#1E515E"
                   HorizontalOptions="Start" 
                   WidthRequest="400"
@@ -81,16 +98,31 @@
                   Padding="15">
 
                 <VerticalStackLayout Spacing="10">
+                    
                     <!--Layout 1 : Qualité de l'air-->
+                    
                     <HorizontalStackLayout Spacing="10">
-                        <Label FontSize="20" FontAttributes="Bold" Text="Qualité de l'air :" VerticalOptions="End" />
-                        <Label FontSize="18" Text="76%" VerticalOptions="End" />
+                        <Label FontSize="20" FontAttributes="Bold" 
+                               Text="Qualité de l'air :" 
+                               VerticalOptions="End"
+                               FontFamily="DalekPinpointBold"/>
+                        
+                        <Label FontSize="18" Text="76%" 
+                               VerticalOptions="End" 
+                               FontFamily="IHATCS__"/>
                     </HorizontalStackLayout>
 
-                    <!--Layout 1 : Qualité de l'eau-->
+                    <!--Layout 2 : Qualité de l'eau-->
+                    
                     <HorizontalStackLayout Spacing="10">
-                        <Label FontSize="20" FontAttributes="Bold" Text="Qualité de l'eau :" VerticalOptions="End" />
-                        <Label FontSize="18" Text="96%" VerticalOptions="End" />
+                        <Label FontSize="20" FontAttributes="Bold" 
+                               Text="Qualité de l'eau :" 
+                               VerticalOptions="End"
+                               FontFamily="DalekPinpointBold"/>
+                        
+                        <Label FontSize="18" Text="96%" 
+                               VerticalOptions="End" 
+                               FontFamily="IHATCS__"/>
                     </HorizontalStackLayout>
 
                 </VerticalStackLayout>

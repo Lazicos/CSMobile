@@ -362,3 +362,4 @@ C:\Users\manon\OneDrive\Documents\GitHub\CSMobile\CSGames_App\obj\Debug\net6.0-w
 C:\Users\manon\OneDrive\Documents\GitHub\CSMobile\CSGames_App\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\DocumentFormat.OpenXml.dll
 C:\Users\manon\OneDrive\Documents\GitHub\CSMobile\CSGames_App\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\System.IO.Packaging.dll
 C:\Users\manon\OneDrive\Documents\GitHub\CSMobile\CSGames_App\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\DalekPinpointBold.ttf
+C:\Users\manon\OneDrive\Documents\GitHub\CSMobile\CSGames_App\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\IHATCS__.TTF

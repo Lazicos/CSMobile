@@ -835,6 +835,9 @@
     <AppxPackagedFile Include="C:\Users\manon\OneDrive\Documents\GitHub\CSMobile\CSGames_App\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\DalekPinpointBold.ttf">
       <PackagePath>DalekPinpointBold.ttf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manon\OneDrive\Documents\GitHub\CSMobile\CSGames_App\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\IHATCS__.TTF">
+      <PackagePath>IHATCS__.TTF</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manon\OneDrive\Documents\GitHub\CSMobile\CSGames_App\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Info.xaml">
       <PackagePath>Info.xaml</PackagePath>
     </AppxPackagedFile>
