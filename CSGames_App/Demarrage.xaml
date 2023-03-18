@@ -7,6 +7,7 @@
         <Label 
             Text="Welcome to our App!!!"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            TextColor="#1E515E"/>
     </VerticalStackLayout>
 </ContentPage>
