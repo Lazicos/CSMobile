@@ -151,6 +151,14 @@
                                TextColor="#1E515E"
                                FontFamily="IHATCS__"/>
 
+                            <Label FontSize="15"
+                                   VerticalOptions="End" 
+                                    TextColor="#1E515E"
+                                    FontFamily="IHATCS__"
+                                    Text="Monday : 06h00-22h30; Tuesday : 06h00-22h30; Wednesday : 06h00-22h30; Thursday : 06h00-23h00; Friday : 06h00-00h00; Saturday : 07h00-00h00; Sunday : 07h00-00h00;">
+                                
+                            </Label>
+
                     </VerticalStackLayout>
 
                 </VerticalStackLayout>

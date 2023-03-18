@@ -15,7 +15,11 @@
             ContentTemplate="{DataTemplate local:SecondPage}"
         />
 
-        
+        <ShellContent
+            Title="Demarrage"
+            ContentTemplate="{DataTemplate local:Demarrage}"
+        />
+
     </TabBar>
 
 </Shell>
