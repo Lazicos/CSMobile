@@ -16,7 +16,7 @@
 
                 <HorizontalStackLayout Spacing="80" 
                         HorizontalOptions="FillAndExpand"
-                        Padding="10">
+                        Margin="10">
 
                     <!-- Temperature-->
 
@@ -29,6 +29,12 @@
                     <Label FontSize="18" Text="Batterie : 80%" 
                            VerticalOptions="End"
                            FontFamily="IHATCS__"/>
+
+                    <Button BackgroundColor="WhiteSmoke"
+                        HeightRequest="40"
+                        Text="Mode Sombre"
+                        TextColor="#1E515E">
+                    </Button>
                 </HorizontalStackLayout>
             </Grid>
 
@@ -44,12 +50,23 @@
                                Text="SOS :" VerticalOptions="End" 
                                TextColor="#1E515E"
                                FontFamily="DalekPinpointBold"/>
-                        
-                        <Label FontSize="22" Text="Aucun SOS" 
+
+                       
+                    </HorizontalStackLayout>
+                    
+                    <VerticalStackLayout Margin="25,0,0,0">
+
+                        <Label FontSize="22" Text="SOS d'un terrien en détresse : " 
                                VerticalOptions="End" 
                                TextColor="#1E515E"
                                FontFamily="IHATCS__"/>
-                    </HorizontalStackLayout>
+
+                        <Label FontSize="18" Text="P1-4280" 
+                               VerticalOptions="End" 
+                               TextColor="#1E515E"
+                               FontFamily="IHATCS__"/>
+
+                    </VerticalStackLayout>
 
                     <!--Layout 2 : Nouvelles-->
 
@@ -61,11 +78,50 @@
                                TextColor="#1E515E"
                                FontFamily="DalekPinpointBold"/>
                         
-                        <Label FontSize="22" Text="Pas de nouvelles" 
+                    </HorizontalStackLayout>
+
+                    <VerticalStackLayout Margin="25,0,0,0">
+
+                        <HorizontalStackLayout Spacing="10">
+                        <Label FontSize="22" FontAttributes="Bold" Text="Chicoutimi : " 
                                VerticalOptions="End"
                                TextColor="#1E515E"
-                               FontFamily="IHATCS__"/>
-                    </HorizontalStackLayout>
+                                FontFamily="IHATCS__"/>
+                        
+                        <Label FontSize="22" Text="Des concurrentes des CS Games en dépression" 
+                               VerticalOptions="End"
+                               TextColor="#1E515E"
+                                FontFamily="IHATCS__"/>
+                        </HorizontalStackLayout>
+
+                        <Label FontSize="18" Text="Alors qu'elles s'attendaient a coder en Kotlin sur Android Studio, le C# sur .NET MAUI les a atomsié. READ MORE." 
+                               VerticalOptions="End"
+                               TextColor="#1E515E"
+                                FontFamily="IHATCS__"/>
+
+
+
+                        <HorizontalStackLayout Spacing="10" Margin="0,15,0,0">
+
+                        
+                            <Label FontSize="22" FontAttributes="Bold" Text="France : " 
+                                   VerticalOptions="End"
+                                   TextColor="#1E515E"
+                                    FontFamily="IHATCS__"/>
+                        
+                            <Label FontSize="22" Text="La SNCF encore en grève" 
+                                   VerticalOptions="End"
+                                   TextColor="#1E515E"
+                                    FontFamily="IHATCS__"/>
+
+                        </HorizontalStackLayout>
+
+                        <Label FontSize="18" Text="Il faut croire que la fin du monde ne change pas les habitudes. READ MORE." 
+                               VerticalOptions="End"
+                               TextColor="#1E515E"
+                                FontFamily="IHATCS__"/>
+
+                    </VerticalStackLayout>
 
 
                     <!--Layout 3 : Transports-->
@@ -77,12 +133,22 @@
                                VerticalOptions="End" 
                                TextColor="#1E515E"
                                FontFamily="DalekPinpointBold"/>
-                        
-                        <Label FontSize="22" Text="Pas de transports" 
+          
+                    </HorizontalStackLayout>
+
+                    <VerticalStackLayout Margin="25,0,0,0">
+
+                        <Label FontSize="22" Text="Ligne 10" 
                                VerticalOptions="End" 
                                TextColor="#1E515E"
                                FontFamily="IHATCS__"/>
-                    </HorizontalStackLayout>
+                        
+                        <Label FontSize="18" Text="Terminus de Chicoutimi - Station UQAC" 
+                               VerticalOptions="End" 
+                               TextColor="#1E515E"
+                               FontFamily="IHATCS__"/>
+
+                    </VerticalStackLayout>
 
                 </VerticalStackLayout>
 
@@ -127,9 +193,10 @@
 
                 </VerticalStackLayout>
             </Grid>
-            
-            
 
         </Grid>
+        
+        
+
     </VerticalStackLayout>
 </ContentPage>
