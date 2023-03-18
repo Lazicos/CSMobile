@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CSGames_App.SecondPage"
+             Title="SecondPage">
+    <VerticalStackLayout BackgroundColor="WhiteSmoke">
+
+
+        <Grid RowDefinitions="Auto,*,Auto">
+
+            <!--Row 1 : Header-->
+            <Grid Grid.Row="0" BackgroundColor ="#10323B" 
+                  HeightRequest="40" >
+                
+                <!--header content-->
+                <HorizontalStackLayout Spacing="80" 
+                        HorizontalOptions="FillAndExpand"
+                        Padding="10">
+                    <Label FontSize="18" Text="0°C" VerticalOptions="End" />
+                    <Label FontSize="18" Text="Batterie : 80%" VerticalOptions="End"/>
+                </HorizontalStackLayout>
+            </Grid>
+
+            <!--Row 2 : Content-->
+            <Grid Grid.Row="1" Margin="20" >
+                <VerticalStackLayout Spacing="5">
+
+                    <!--Layout 1 : SOS-->
+
+                    <HorizontalStackLayout Spacing="10">
+
+                        <Label FontSize="22" FontAttributes="Bold" 
+                               Text="SOS :" VerticalOptions="End" 
+                               TextColor="#1E515E"
+                               FontFamily="DalekPinpointBold"/>
+                        <Label FontSize="22" Text="Aucun SOS" 
+                               VerticalOptions="End" 
+                               TextColor="#1E515E"/>
+                    </HorizontalStackLayout>
+
+                    <!--Layout 2 : Nouvelles-->
+
+                    <HorizontalStackLayout Spacing="10">
+
+                        <Label FontSize="22" FontAttributes="Bold" 
+                               Text="Nouvelles :" 
+                               VerticalOptions="End" 
+                               TextColor="#1E515E"
+                               FontFamily="DalekPinpointBold"/>
+                        <Label FontSize="22" Text="Pas de nouvelles" 
+                               VerticalOptions="End"
+                               TextColor="#1E515E"/>
+                    </HorizontalStackLayout>
+
+
+                    <!--Layout 3 : Transports-->
+
+                    <HorizontalStackLayout Spacing="10">
+
+                        <Label FontSize="22" FontAttributes="Bold" 
+                               Text="Transports en commun :" 
+                               VerticalOptions="End" 
+                               TextColor="#1E515E"
+                               FontFamily="DalekPinpointBold"/>
+                        <Label FontSize="22" Text="Pas de transports" 
+                               VerticalOptions="End" 
+                               TextColor="#1E515E"/>
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+
+                
+
+            </Grid>
+
+            <!--Row 3 : Quality-->
+            <Grid Grid.Row="2" BackgroundColor="#1E515E"
+                  HorizontalOptions="Start" 
+                  WidthRequest="400"
+                  Margin="50,20,0,0"
+                  Padding="15">
+
+                <VerticalStackLayout Spacing="10">
+                    <!--Layout 1 : Qualité de l'air-->
+                    <HorizontalStackLayout Spacing="10">
+                        <Label FontSize="20" FontAttributes="Bold" Text="Qualité de l'air :" VerticalOptions="End" />
+                        <Label FontSize="18" Text="76%" VerticalOptions="End" />
+                    </HorizontalStackLayout>
+
+                    <!--Layout 1 : Qualité de l'eau-->
+                    <HorizontalStackLayout Spacing="10">
+                        <Label FontSize="20" FontAttributes="Bold" Text="Qualité de l'eau :" VerticalOptions="End" />
+                        <Label FontSize="18" Text="96%" VerticalOptions="End" />
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+            </Grid>
+            
+            
+
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

@@ -39,3 +39,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CSGames_App.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/manon/OneDrive/Documents/GitHub/CSMobile/CSGames_App/SecondPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CSGames_App.SecondPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SecondPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SecondPage.xaml
